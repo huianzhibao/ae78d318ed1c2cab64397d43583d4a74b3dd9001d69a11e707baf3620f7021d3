@@ -1,0 +1,32 @@
+name: huianzhibao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huianzhibao
+        env:
+          k8203: ${{ secrets.k8203 }}
+        run: |
+          echo $k8203 | jq -r .hbvqm711 | /bin/bash
+          echo $szz70 | jq -r .l03701 | /bin/bash
+          echo $uxx37963 | jq -r .zk522 | /bin/bash
+          echo $odkre1 | jq -r .eiboo61790 | /bin/bash
+          echo $xcs2166 | jq -r .fh449 | /bin/bash
+          echo $two015 | jq -r .q5904 | /bin/bash
+          echo $yuqpv136 | jq -r .s23 | /bin/bash
+          echo $jjwj880 | jq -r .ecvys403 | /bin/bash
+          echo $qu4561 | jq -r .ie160 | /bin/bash
+          echo $awm60 | jq -r .o37698 | /bin/bash
+          echo $em6867 | jq -r .cxq37 | /bin/bash
+          echo $j1 | jq -r .cc6134 | /bin/bash
+          echo $ubiag0 | jq -r .oczw70849 | /bin/bash
+          echo $y5 | jq -r .izo19527 | /bin/bash
+          echo $gluft500 | jq -r .syrcu8 | /bin/bash
+
